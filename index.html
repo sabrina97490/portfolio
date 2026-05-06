@@ -3,291 +3,267 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Sabrina Mouédine — Multimédia</title>
+<title>Sabrina Mouédine — Studio multimédia</title>
 <meta name="description" content="Sabrina Mouédine — technicienne multimédia. Vidéo, graphisme, web. Portfolio 2026.">
-<meta property="og:title" content="Sabrina Mouédine — Multimédia">
-<meta property="og:description" content="Vidéo · Graphisme · Web. Portfolio 2026.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400;1,6..96,700&family=Caveat:wght@400;700&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght,SOFT@0,9..144,400..900,0..100;1,9..144,400..900,0..100&family=Space+Grotesk:wght@400;500;600;700&family=Caveat:wght@400;700&display=swap">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<!-- ============= NAV ============= -->
+<div class="grain" aria-hidden="true"></div>
+
+<!-- NAV -->
 <header class="nav">
-  <a class="nav-mark" href="#top" aria-label="Accueil">
-    <span class="mark-stamp">CV<br>2026</span>
-    <span class="mark-name"><em>S</em>abrina <em>M</em>ouédine</span>
+  <a class="logo" href="#top">
+    <span class="logo-mark">SM</span>
+    <span class="logo-name">Sabrina<br>Mouédine</span>
+    <span class="logo-pulse"></span>
   </a>
-  <nav class="nav-links" aria-label="Navigation principale">
-    <a href="#about">À propos</a>
-    <a href="#videos-pro">Vidéos pro</a>
-    <a href="#videos-perso">Vidéos perso</a>
-    <a href="#graphisme">Affiches</a>
-    <a href="#identite">Identité</a>
-    <a href="#sites">Sites web</a>
-    <a href="#contact">Contact</a>
+  <nav class="nav-links">
+    <a href="#about"><span>01</span> À propos</a>
+    <a href="#work"><span>02</span> Vidéos</a>
+    <a href="#graphisme"><span>03</span> Graphisme</a>
+    <a href="#sites"><span>04</span> Web</a>
+    <a href="#contact"><span>05</span> Contact</a>
   </nav>
-  <a class="nav-cv" href="#contact">
-    <span>CV — PDF</span>
-    <span class="nav-cv-arrow">↓</span>
+  <a class="nav-cta" href="#contact">
+    <span>Discutons</span>
+    <span class="arrow">→</span>
   </a>
 </header>
 
-<!-- ============= HERO ============= -->
+<!-- HERO -->
 <section class="hero" id="top">
-  <div class="hero-meta">
-    <span class="meta-label">PORTFOLIO · ÉDITION</span>
-    <span class="meta-year">2026</span>
+  <div class="hero-bg" aria-hidden="true">
+    <span class="blob b1"></span>
+    <span class="blob b2"></span>
   </div>
 
-  <h1 class="hero-title">
-    <span class="line line-1"><em>S</em>abrina</span>
-    <span class="line line-2">Mouédine<span class="dot dot-red">.</span></span>
-  </h1>
+  <div class="hero-grid">
+    <div class="hero-left">
+      <div class="hero-tag">
+        <span class="dot"></span>
+        <span>Disponible pour vos projets · 94</span>
+      </div>
 
-  <div class="hero-tags">
-    <span class="tag tag-blue">VIDÉO</span>
-    <span class="tag tag-red">GRAPHISME</span>
-    <span class="tag tag-green">WEB</span>
+      <h1 class="hero-title">
+        Je <em>conçois</em>,<br>
+        je <span class="hl hl-pink">filme</span>,<br>
+        je <span class="hl hl-blue">code</span>.
+      </h1>
+
+      <p class="hero-lede">
+        Technicienne multimédia depuis vingt ans.<br>
+        Du brief à la diffusion — vidéo, graphisme, web.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn-primary" href="#work">
+          <span>Voir le travail</span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="btn-ghost" href="#contact">
+          Me contacter
+        </a>
+      </div>
+    </div>
+
+    <aside class="hero-right">
+      <div class="card-portrait">
+        <span class="p-tape t1"></span>
+        <span class="p-tape t2"></span>
+        <span class="p-letter">S</span>
+        <span class="p-stamp">EST. 2005</span>
+      </div>
+
+      <div class="card-id">
+        <div class="id-row">
+          <span class="id-key">Rôle</span>
+          <span class="id-val">Technicienne multimédia</span>
+        </div>
+        <div class="id-row">
+          <span class="id-key">Expérience</span>
+          <span class="id-val">20 ans · freelance &amp; studio</span>
+        </div>
+        <div class="id-row">
+          <span class="id-key">Studio</span>
+          <span class="id-val">Boissy-Saint-Léger · 94</span>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat">
+          <span class="stat-num">20<sup>+</sup></span>
+          <span class="stat-lbl">années<br>d'expérience</span>
+        </div>
+        <div class="stat stat-pink">
+          <span class="stat-num">50<sup>+</sup></span>
+          <span class="stat-lbl">projets<br>livrés</span>
+        </div>
+        <div class="stat stat-blue">
+          <span class="stat-num">3</span>
+          <span class="stat-lbl">disciplines<br>croisées</span>
+        </div>
+      </div>
+    </aside>
   </div>
 
-  <p class="hero-lede">
-    Technicienne multimédia. Je conçois des
-    <span class="hl hl-blue">vidéos</span>,
-    des <span class="hl hl-red">supports graphiques</span>
-    et des <span class="hl hl-green">sites web</span> —
-    <em>de la première esquisse à la mise en ligne.</em>
-  </p>
-
-  <div class="hero-bottom">
-    <div class="hero-stat">
-      <span class="stat-num">20<span class="plus">+</span></span>
-      <span class="stat-lab">années<br>d'expérience</span>
-    </div>
-    <div class="hero-stat">
-      <span class="stat-num">3</span>
-      <span class="stat-lab">métiers<br>croisés</span>
-    </div>
-    <div class="hero-stat">
-      <span class="stat-num">∞</span>
-      <span class="stat-lab">projets<br>menés</span>
-    </div>
-    <a class="hero-cta" href="#videos-pro">
-      Voir le travail
-      <span class="cta-arrow">→</span>
-    </a>
-  </div>
-
-  <div class="hero-marquee" aria-hidden="true">
-    <div class="marquee-track">
-      <span>Vidéo · Tournage · Montage · Motion · Storyboard · Identité visuelle · Affiches · Tracts · Sites web · Direction artistique ·&nbsp;</span>
-      <span>Vidéo · Tournage · Montage · Motion · Storyboard · Identité visuelle · Affiches · Tracts · Sites web · Direction artistique ·&nbsp;</span>
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>★ Vidéo ★ Tournage ★ Montage ★ Motion ★ Identité ★ Affiches ★ Sites web ★ Direction artistique ★ Vidéo ★ Tournage ★ Montage ★ Motion ★ Identité ★ Affiches ★ Sites web ★ Direction artistique ★&nbsp;</span>
     </div>
   </div>
 </section>
 
-<!-- ============= À PROPOS ============= -->
-<section class="section section-about" id="about">
-  <div class="section-head">
-    <span class="sh-num">01</span>
-    <h2 class="sh-title">À propos</h2>
-    <span class="sh-meta">— LE PORTRAIT</span>
+<!-- ABOUT -->
+<section class="section section-paper" id="about">
+  <div class="sec-head">
+    <span class="sec-num">01</span>
+    <h2 class="sec-title">À propos</h2>
+    <span class="sec-line"></span>
   </div>
 
-  <div class="about-grid">
+  <div class="about">
     <div class="about-portrait">
-      <div class="portrait-frame">
-        <div class="portrait-stamp">CV<br>2026</div>
-        <div class="portrait-tape tape-1"></div>
-        <div class="portrait-tape tape-2"></div>
-        <div class="portrait-letter">S</div>
-        <div class="portrait-cap">[ photo ]</div>
+      <div class="portrait">
+        <span class="p-tape t1"></span>
+        <span class="p-tape t2"></span>
+        <span class="p-letter">S</span>
+        <span class="p-stamp">EST. 2005</span>
+      </div>
+      <div class="portrait-caption">
+        <span class="cv">"</span>
+        Touche-à-tout, le multimédia c'est ma maison.
+        <span class="cv">"</span>
       </div>
     </div>
 
     <div class="about-text">
-      <p class="lead">
-        Je m'appelle Sabrina, je suis <strong>technicienne multimédia</strong>
-        depuis plus de vingt ans. Mon quotidien&nbsp;: tourner, monter, dessiner, coder.
-      </p>
-      <p>
-        Côté <strong>vidéo</strong>, je tourne et je monte des films d'entreprise, des reportages, des contenus pour les réseaux. Je m'occupe aussi de la <em>post-prod</em>, du motion design léger et du storyboard.
-      </p>
-      <p>
-        Côté <strong>graphisme</strong>, je crée des affiches, des tracts, des identités visuelles — tout ce qui aide une structure à raconter clairement ce qu'elle fait.
-      </p>
-      <p>
-        Côté <strong>web</strong>, je conçois et j'intègre des sites — du brief jusqu'à la mise en ligne — en passant par la maintenance.
-      </p>
+      <p class="lead">Salut, moi c'est <strong>Sabrina</strong>.<br>
+      Je fais des images qui bougent, des affiches qui parlent, des sites qui marchent.</p>
 
-      <div class="quote">
-        <span class="quote-glyph">&ldquo;</span>
-        <p>De la première esquisse à la mise en ligne, je porte chaque projet de bout en bout.</p>
-        <span class="quote-sig">— ma signature créative</span>
+      <p>Vingt ans à tourner, monter, dessiner, coder. J'aime quand un projet passe entre mes mains de bout en bout — du premier brief jusqu'à la mise en ligne ou l'impression. C'est là que ça prend vraiment vie.</p>
+
+      <div class="trio">
+        <article class="trio-card c-pink">
+          <span class="card-num">01</span>
+          <h3>Vidéo</h3>
+          <p>Tournage, montage, motion, captations. Films institutionnels, reportages, contenus sociaux.</p>
+        </article>
+        <article class="trio-card c-yellow">
+          <span class="card-num">02</span>
+          <h3>Graphisme</h3>
+          <p>Affiches, tracts, identités visuelles. Print et digital. Du concept à la livraison.</p>
+        </article>
+        <article class="trio-card c-blue">
+          <span class="card-num">03</span>
+          <h3>Web</h3>
+          <p>Sites vitrines, intégration, maintenance. HTML/CSS/JS, WordPress, Joomla, Bootstrap.</p>
+        </article>
       </div>
 
-      <div class="about-tools">
-        <span class="tool-label">JE TRAVAILLE AVEC</span>
-        <ul class="tool-list">
-          <li>Premiere</li><li>Photoshop</li><li>Illustrator</li><li>Canva</li>
-          <li>HTML</li><li>CSS</li><li>JS</li><li>PHP</li>
-          <li>Bootstrap</li><li>jQuery</li><li>Joomla</li><li>MySQL</li>
+      <div class="tools">
+        <span class="tools-label">Outils</span>
+        <ul>
+          <li>Premiere</li><li>Photoshop</li><li>Illustrator</li><li>InDesign</li>
+          <li>Canva</li><li>HTML/CSS</li><li>JavaScript</li><li>WordPress</li><li>Joomla</li><li>Bootstrap</li>
         </ul>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============= VIDÉOS PRO ============= -->
-<section class="section section-videos" id="videos-pro">
-  <div class="section-head">
-    <span class="sh-num">02</span>
-    <h2 class="sh-title">Vidéos pro</h2>
-    <span class="sh-meta">— PROJETS CLIENTS</span>
+<!-- VIDEOS -->
+<section class="section section-dark" id="work">
+  <div class="sec-head dark">
+    <span class="sec-num">02</span>
+    <h2 class="sec-title">Vidéos</h2>
+    <span class="sec-line dark"></span>
   </div>
-  <p class="section-intro">
-    Reportages, films institutionnels, captations, contenus réseaux sociaux. Cliquez sur une vignette pour lancer la lecture.
-  </p>
 
-  <div class="videos-grid videos-pro-grid" id="videosProGrid"></div>
+  <div class="tabs">
+    <button class="tab active" data-tab="pro">Vidéos pro</button>
+    <button class="tab" data-tab="perso">Carnet perso</button>
+  </div>
+
+  <div class="videos-grid" id="videosProGrid" data-tab-panel="pro"></div>
+  <div class="videos-grid hidden" id="videosPersoGrid" data-tab-panel="perso"></div>
 </section>
 
-<!-- ============= VIDÉOS PERSO ============= -->
-<section class="section section-videos perso" id="videos-perso">
-  <div class="section-head">
-    <span class="sh-num">03</span>
-    <h2 class="sh-title">Vidéos perso</h2>
-    <span class="sh-meta">— LE LABO</span>
+<!-- GRAPHISME -->
+<section class="section section-cream" id="graphisme">
+  <div class="sec-head">
+    <span class="sec-num">03</span>
+    <h2 class="sec-title">Graphisme</h2>
+    <span class="sec-line"></span>
   </div>
-  <p class="section-intro">
-    Mes essais, mes envies, ce que je fais quand je m'amuse. Montages, tests motion, animations rapides.
-  </p>
-
-  <div class="videos-grid videos-perso-grid" id="videosPersoGrid"></div>
-</section>
-
-<!-- ============= AFFICHES & TRACTS ============= -->
-<section class="section section-graphisme" id="graphisme">
-  <div class="section-head">
-    <span class="sh-num">04</span>
-    <h2 class="sh-title">Affiches &amp; tracts</h2>
-    <span class="sh-meta">— PRINT &amp; ÉCRAN</span>
-  </div>
-  <p class="section-intro">
-    Campagnes de communication, affichage, supports événementiels.
-  </p>
+  <p class="sec-intro">Affiches, tracts, identités. Print, web, campagnes.</p>
 
   <div class="masonry" id="affichesGrid"></div>
-</section>
 
-<!-- ============= IDENTITÉ ============= -->
-<section class="section section-identite" id="identite">
-  <div class="section-head">
-    <span class="sh-num">05</span>
-    <h2 class="sh-title">Identité visuelle</h2>
-    <span class="sh-meta">— LOGOTYPES</span>
+  <div class="sub-head">
+    <span class="sub-bullet"></span>
+    <h3>Identités visuelles</h3>
   </div>
-  <p class="section-intro">
-    Identités créées pour des structures, associations et indépendants.
-  </p>
-
   <div class="logos-grid" id="logosGrid"></div>
 </section>
 
-<!-- ============= SITES WEB ============= -->
-<section class="section section-sites" id="sites">
-  <div class="section-head">
-    <span class="sh-num">06</span>
-    <h2 class="sh-title">Sites web</h2>
-    <span class="sh-meta">— RÉALISATIONS</span>
+<!-- SITES -->
+<section class="section section-blue" id="sites">
+  <div class="sec-head dark">
+    <span class="sec-num">04</span>
+    <h2 class="sec-title">Sites web</h2>
+    <span class="sec-line dark"></span>
   </div>
-  <p class="section-intro">
-    Conception, intégration et mise en ligne. Captures de quelques projets.
-  </p>
+  <p class="sec-intro light">Sites vitrines, applications, maintenance.</p>
 
   <div class="sites-grid" id="sitesGrid"></div>
 </section>
 
-<!-- ============= CONTACT ============= -->
-<section class="section section-contact" id="contact">
-  <div class="section-head">
-    <span class="sh-num">07</span>
-    <h2 class="sh-title">Contact</h2>
-    <span class="sh-meta">— ÉCRIVEZ-MOI</span>
+<!-- CONTACT -->
+<section class="section section-pink" id="contact">
+  <div class="sec-head">
+    <span class="sec-num">05</span>
+    <h2 class="sec-title">Contact</h2>
+    <span class="sec-line"></span>
   </div>
 
-  <div class="contact-grid">
-    <div class="contact-card">
-      <p class="contact-lead">
-        Un projet, une idée, un coup de main&nbsp;?<br>
-        <strong>Disons-nous bonjour.</strong>
-      </p>
-
+  <div class="contact">
+    <div class="contact-left">
+      <h3 class="contact-shout">Une idée ?<br>Un projet ?<br><em>Disons-nous bonjour.</em></h3>
       <ul class="contact-list">
-        <li>
-          <span class="cl-key">MAIL</span>
-          <a href="mailto:sabrina.mouedine@gmail.com">sabrina.mouedine@gmail.com</a>
-        </li>
-        <li>
-          <span class="cl-key">TÉL</span>
-          <a href="tel:+33782643730">07 82 64 37 30</a>
-        </li>
-        <li>
-          <span class="cl-key">LINKEDIN</span>
-          <a href="https://www.linkedin.com/in/sabrina-mouedine" target="_blank" rel="noopener">linkedin.com/in/sabrina-mouedine</a>
-        </li>
-        <li>
-          <span class="cl-key">OÙ</span>
-          <span>Boissy St Léger — France</span>
-        </li>
+        <li><span>Mail</span><a href="/cdn-cgi/l/email-protection#d1a2b0b3a3b8bfb0ffbcbea4b4b5b8bfb491b6bcb0b8bdffb2bebc"><span class="__cf_email__" data-cfemail="186b797a6a7176793675776d7d7c71767d587f75797174367b7775">[email&#160;protected]</span></a></li>
+        <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/sabrina-mouedine" target="_blank" rel="noopener">linkedin.com/in/sabrina-mouedine</a></li>
+        <li><span>Lieu</span><span>Boissy-Saint-Léger · 94</span></li>
       </ul>
-
-      <a class="cv-download" href="CV-Sabrina-Mouedine.pdf" download>
-        <span class="cv-dl-label">Télécharger le CV</span>
-        <span class="cv-dl-meta">PDF · A4 · édition 2026</span>
-        <span class="cv-dl-arrow">↓</span>
+      <a class="cv-dl" href="CV-Sabrina-Mouedine.pdf" download>
+        <span>Télécharger le CV</span>
+        <span class="cv-arrow">↓</span>
       </a>
     </div>
 
     <form class="contact-form" id="contactForm" novalidate>
-      <h3>Formulaire</h3>
-      <label>
-        <span>Nom</span>
-        <input type="text" name="name" required autocomplete="name">
-      </label>
-      <label>
-        <span>Email</span>
-        <input type="email" name="email" required autocomplete="email">
-      </label>
-      <label>
-        <span>Sujet</span>
-        <input type="text" name="subject">
-      </label>
-      <label>
-        <span>Message</span>
-        <textarea name="message" rows="5" required></textarea>
-      </label>
-      <button type="submit">
-        Envoyer <span>→</span>
-      </button>
-      <p class="form-note">Le formulaire ouvre votre application mail.</p>
+      <label><span>01 — Vous êtes</span><input type="text" name="name" required placeholder="Votre nom"></label>
+      <label><span>02 — On vous écrit où</span><input type="email" name="email" required placeholder="vous@exemple.com"></label>
+      <label><span>03 — De quoi on parle</span><input type="text" name="subject" placeholder="Un projet vidéo, un site, autre…"></label>
+      <label><span>04 — Racontez-moi</span><textarea name="message" rows="5" required placeholder="Quelques lignes suffisent."></textarea></label>
+      <button type="submit" class="send">Envoyer le message <span class="arrow">→</span></button>
       <p class="form-status" id="formStatus" aria-live="polite"></p>
     </form>
   </div>
 </section>
 
-<!-- ============= FOOTER ============= -->
 <footer class="footer">
-  <div class="footer-row">
-    <span class="foot-mark">CV — ÉDITION 2026</span>
-    <span class="foot-name"><em>Sabrina Mouédine</em> · mouedine.fr</span>
-    <span class="foot-page">PAGE 01 / 01</span>
+  <div class="foot-row">
+    <span class="f-mark">SM</span>
+    <span class="f-name">Sabrina Mouédine · sabrina-mouedine.fr</span>
+    <span class="f-year">— 2026</span>
   </div>
 </footer>
 
-<!-- ============= LIGHTBOX ============= -->
+<!-- LIGHTBOX -->
 <div class="lightbox" id="lightbox" hidden>
   <button class="lb-close" aria-label="Fermer">×</button>
   <button class="lb-prev" aria-label="Précédent">←</button>
@@ -296,7 +272,7 @@
   <div class="lb-caption"></div>
 </div>
 
-<script src="data.js"></script>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="data.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
