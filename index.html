@@ -232,7 +232,7 @@
     <div class="contact-left">
       <h3 class="contact-shout">Une idée ?<br>Un projet ?<br><em>Disons-nous bonjour.</em></h3>
       <ul class="contact-list">
-        <li><span>Mail</span><a href="/cdn-cgi/l/email-protection#7003111202191e115e1d1f051514191e1530171d11191c5e131f1d"><span class="__cf_email__" data-cfemail="4d3e2c2f3f24232c6320223828292423280d2a202c2421632e2220">[email&#160;protected]</span></a></li>
+        <li><span>Mail</span><a class="js-mail" href="#" data-u="sabrina.mouedine" data-d="gmail.com">écrire un mail</a></li>
         <li><span>LinkedIn</span><a href="https://www.linkedin.com/in/sabrina-mouedine" target="_blank" rel="noopener">linkedin.com/in/sabrina-mouedine</a></li>
         <li><span>Lieu</span><span>Boissy-Saint-Léger · 94</span></li>
       </ul>
@@ -242,10 +242,14 @@
       </a>
     </div>
 
-    <form class="contact-form" id="contactForm" novalidate>
+    <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+      <input type="hidden" name="access_key" value="f1d3d44c-afb8-4fbf-abcf-11460ade2ac2">
+      <input type="hidden" name="from_name" value="Portfolio Sabrina Mouédine">
+      <input type="hidden" name="subject" value="Nouveau message depuis le portfolio">
+      <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
       <label><span>01 — Vous êtes</span><input type="text" name="name" required placeholder="Votre nom"></label>
       <label><span>02 — On vous écrit où</span><input type="email" name="email" required placeholder="vous@exemple.com"></label>
-      <label><span>03 — De quoi on parle</span><input type="text" name="subject" placeholder="Un projet vidéo, un site, autre…"></label>
+      <label><span>03 — De quoi on parle</span><input type="text" name="topic" placeholder="Un projet vidéo, un site, autre…"></label>
       <label><span>04 — Racontez-moi</span><textarea name="message" rows="5" required placeholder="Quelques lignes suffisent."></textarea></label>
       <button type="submit" class="send">Envoyer le message <span class="arrow">→</span></button>
       <p class="form-status" id="formStatus" aria-live="polite"></p>
@@ -270,7 +274,7 @@
   <div class="lb-caption"></div>
 </div>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="data.js"></script>
+<script src="data.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
