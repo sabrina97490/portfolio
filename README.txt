@@ -21,7 +21,7 @@ Tout passe par data.js :
 Mise en ligne
 -------------
 1. GitHub Pages
-   - Créer un dépôt nommé "mouedine.fr" (ou autre).
+   - Domaine : sabrina-mouedine.fr
    - Y déposer tout le contenu du dossier "site".
    - Settings -> Pages -> Source : main / root.
    - Acheter un domaine (OVH, Gandi, Namecheap...).

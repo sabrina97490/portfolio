@@ -151,6 +151,16 @@ function escapeHtml(s) {
   return String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
 }
 
+function bindTabs() {
+  $$('.tab').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const target = btn.dataset.tab;
+      $$('.tab').forEach(b => b.classList.toggle('active', b === btn));
+      $$('[data-tab-panel]').forEach(p => p.classList.toggle('hidden', p.dataset.tabPanel !== target));
+    });
+  });
+}
+
 document.addEventListener('DOMContentLoaded', () => {
   initLightbox();
   renderVideos(window.VIDEOS_PRO, 'videosProGrid');
@@ -159,4 +169,5 @@ document.addEventListener('DOMContentLoaded', () => {
   renderLogos(window.LOGOS, 'logosGrid');
   renderSites(window.SITES, 'sitesGrid');
   bindForm();
+  bindTabs();
 });
