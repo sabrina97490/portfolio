@@ -131,19 +131,40 @@ function renderLightbox() {
 function bindForm() {
   const f = $('#contactForm');
   if (!f) return;
-  f.addEventListener('submit', e => {
+  const status = $('#formStatus');
+  f.addEventListener('submit', async e => {
     e.preventDefault();
     const name = f.name.value.trim();
     const email = f.email.value.trim();
-    const subject = f.subject.value.trim() || 'Contact via portfolio';
     const message = f.message.value.trim();
     if (!name || !email || !message) {
-      $('#formStatus').textContent = 'Merci de remplir tous les champs requis.';
+      status.textContent = 'Merci de remplir tous les champs requis.';
       return;
     }
-    const body = `Nom: ${name}\nEmail: ${email}\n\n${message}`;
-    window.location.href = `mailto:sabrina.mouedine@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
-    $('#formStatus').textContent = 'Ouverture de votre application mail…';
+    status.textContent = 'Envoi en cours…';
+    try {
+      const res = await fetch(f.action, {
+        method: 'POST',
+        headers: { 'Accept': 'application/json' },
+        body: new FormData(f)
+      });
+      const data = await res.json();
+      if (data.success) {
+        status.textContent = 'Message envoyé. Merci, je vous réponds vite !';
+        f.reset();
+      } else {
+        status.textContent = 'Oups — ' + (data.message || 'envoi impossible. Réessayez.');
+      }
+    } catch (err) {
+      status.textContent = 'Erreur réseau. Réessayez ou écrivez-moi directement.';
+    }
+  });
+
+  // Email obfusqué (contourne Cloudflare email-protection)
+  document.querySelectorAll('.js-mail').forEach(a => {
+    const addr = a.dataset.u + '@' + a.dataset.d;
+    a.href = 'mailto:' + addr;
+    a.textContent = addr;
   });
 }
 
