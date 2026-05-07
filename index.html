@@ -251,6 +251,7 @@
       <label><span>02 — On vous écrit où</span><input type="email" name="email" required placeholder="vous@exemple.com"></label>
       <label><span>03 — De quoi on parle</span><input type="text" name="topic" placeholder="Un projet vidéo, un site, autre…"></label>
       <label><span>04 — Racontez-moi</span><textarea name="message" rows="5" required placeholder="Quelques lignes suffisent."></textarea></label>
+      <div class="h-captcha" data-captcha="true" data-sitekey="50b2fe65-b00b-4b9e-ad62-3ba471098be2"></div>
       <button type="submit" class="send">Envoyer le message <span class="arrow">→</span></button>
       <p class="form-status" id="formStatus" aria-live="polite"></p>
     </form>
@@ -274,6 +275,7 @@
   <div class="lb-caption"></div>
 </div>
 
+<script src="https://web3forms.com/client/script.js" async defer></script>
 <script src="data.js"></script>
 <script src="app.js"></script>
 </body>
