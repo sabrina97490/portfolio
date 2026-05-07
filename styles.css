@@ -100,6 +100,7 @@ ul,ol{list-style:none}
 .card-portrait{position:relative;aspect-ratio:5/4;background:linear-gradient(135deg,var(--yellow),var(--pink));
   border-radius:14px;overflow:hidden;display:grid;place-content:center;border:2px solid var(--ink);box-shadow:6px 6px 0 var(--ink)}
 .card-portrait .p-letter{font-family:var(--serif);font-style:italic;font-size:200px;color:rgba(255,255,255,.65);line-height:1}
+.card-portrait .p-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%}
 .card-portrait .p-stamp{position:absolute;top:14px;right:14px;background:var(--ink);color:var(--paper);padding:6px 12px;border-radius:999px;
   font-size:10px;font-weight:700;letter-spacing:.1em}
 .card-portrait .p-tape{position:absolute;width:80px;height:24px;background:rgba(42,109,244,.45);transform:rotate(-12deg)}
@@ -153,6 +154,7 @@ ul,ol{list-style:none}
 .portrait{position:relative;aspect-ratio:3/4;background:linear-gradient(135deg,var(--yellow),var(--pink));
   border-radius:8px;overflow:hidden;display:grid;place-content:center;box-shadow:8px 8px 0 var(--ink)}
 .p-letter{font-family:var(--serif);font-style:italic;font-size:240px;color:rgba(255,255,255,.6);line-height:1}
+.portrait .p-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:center 35%}
 .p-stamp{position:absolute;top:14px;right:14px;background:var(--ink);color:var(--paper);padding:6px 12px;border-radius:999px;
   font-size:10px;font-weight:700;letter-spacing:.1em}
 .p-tape{position:absolute;width:80px;height:24px;background:rgba(42,109,244,.45);transform:rotate(-12deg)}
