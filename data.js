@@ -5,6 +5,14 @@
 */
 
 window.VIDEOS_PRO = [
+  // ====== 2025 ======
+  { id: 'v-juscanne',   title: "Jus de Canne 974",          client: 'Jus de Canne 974',    cat: 'PROMO',
+    videoUrl: 'https://youtu.be/StO-lS06ye0', description: "Vidéo promo aux couleurs de La Réunion." },
+  { id: 'v-gmstore',    title: "GM Store",                  client: 'GM Store',            cat: 'PRODUIT',
+    videoUrl: 'https://youtu.be/GmqFFPrsano', description: "Présentation produit pour GM Store." },
+  { id: 'v-jingle',     title: "Jingle Congrès CFDT 2025",  client: 'CFDT Services',       cat: 'INSTITUTIONNEL',
+    videoUrl: 'https://youtu.be/Bjt6B3v3xHU', description: "Jingle d'ouverture pour le Congrès 2025 de la CFDT." },
+
   // ====== CAMPAGNE TPE 2024 (3 shorts) ======
   {
     id: 'campagne-tpe-2024',
@@ -24,15 +32,9 @@ window.VIDEOS_PRO = [
     ]
   },
 
-  // ====== VIDÉOS SOLO ======
-  { id: 'v-jingle',     title: "Jingle Congrès CFDT 2025",  client: 'CFDT Services',       cat: 'INSTITUTIONNEL',
-    videoUrl: 'https://youtu.be/Bjt6B3v3xHU', description: "Jingle d'ouverture pour le Congrès 2025 de la CFDT." },
+  // ====== AUTRES ======
   { id: 'v-technicien', title: "Technicien.io",             client: 'Technicien.io',       cat: 'PROMO',
     videoUrl: 'https://youtu.be/phTjbxYMjYA', description: "Capsule de présentation de la plateforme." },
-  { id: 'v-juscanne',   title: "Jus de Canne 974",          client: 'Jus de Canne 974',    cat: 'PROMO',
-    videoUrl: 'https://youtu.be/StO-lS06ye0', description: "Vidéo promo aux couleurs de La Réunion." },
-  { id: 'v-gmstore',    title: "GM Store",                  client: 'GM Store',            cat: 'PRODUIT',
-    videoUrl: 'https://youtu.be/GmqFFPrsano', description: "Présentation produit pour GM Store." },
   { id: 'v-feminin',    title: "Le Féminin Sacré",          client: 'Le Féminin Sacré',    cat: 'BRAND',
     videoUrl: 'https://youtu.be/iAf3hw4wuDM', description: "Vidéo de marque, univers doux et incarné." },
   { id: 'v-niagara',    title: "Résidences Niagara",        client: 'Résidences Niagara',  cat: 'TOURISME',
@@ -40,12 +42,6 @@ window.VIDEOS_PRO = [
 ];
 
 window.VIDEOS_PERSO = [
-  { id: 'fausse-pub-kleenex-gobelins',
-    title: "Kleenex — Fausse publicité tournée au smartphone",
-    client: 'Projet Gobelins',
-    cat: 'PROJET PÉDAGOGIQUE',
-    videoUrl: 'https://youtu.be/XHZB2o3NEqg',
-    description: "Fausse publicité Kleenex tournée au smartphone — projet pédagogique réalisé dans le cadre de la formation Gobelins." },
   { id: 'pointe-grouin-2021',
     title: "Pointe du Grouin — Essai gimbal & DaVinci",
     cat: 'CAPTATION PAYSAGE',
@@ -62,6 +58,12 @@ window.VIDEOS_PERSO = [
     context: "Création personnelle initiée pendant le confinement, en pleine période de saturation médiatique. L'idée : proposer un format audio posé, pour reprendre du recul sur les informations qui tournaient en boucle. Sources éditoriales : Le Monde, Le Point, Zinfos974.",
     approach: "Travail sur la voix off et le mixage audio : prise de son maîtrisée, jingle d'ouverture, fond musical discret, rythme posé pour laisser de la place à la réflexion. Une démarche d'autrice plutôt qu'un format calibré pour l'algorithme.",
     production: "Adobe Audition · Voix off · Habillage sonore (musiques libres de droits)" },
+  { id: 'fausse-pub-kleenex-gobelins',
+    title: "Kleenex — Fausse publicité tournée au smartphone",
+    client: 'Projet Gobelins',
+    cat: 'PROJET PÉDAGOGIQUE',
+    videoUrl: 'https://youtu.be/XHZB2o3NEqg',
+    description: "Fausse publicité Kleenex tournée au smartphone — projet pédagogique réalisé dans le cadre de la formation Gobelins." },
 ];
 
 window.AFFICHES = [
