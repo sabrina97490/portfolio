@@ -90,5 +90,5 @@ window.SITES = [
   { src: 'assets/portfolio/site-cfdt-casino.png',         title: "CFDT Groupe Casino",                            url: 'cfdt-casino.fr',                     stack: 'Joomla · CFDT Services' },
   { src: 'assets/portfolio/site-notilus-sommaire.png',    title: "Notilus — Vidéos de formation",                 url: 'docs.cfdt-services.fr',              stack: 'Documentation interactive' },
   { src: 'assets/portfolio/site-notilus-mode-emploi.png', title: "Notilus — Mode d'emploi",                       url: 'docs.cfdt-services.fr',              stack: 'Documentation interactive' },
-  { src: 'assets/portfolio/site-reflexologue.jpg',        title: "Marie — Bien-être & Équilibre",                 url: 'marie-bienetre-equilibre.fr',        stack: 'Site vitrine one-page · Réflexologie' },
+  { src: 'assets/portfolio/site-reflexologue.jpg',        title: "Marie — Bien-être & Équilibre",                 url: 'reflexologie91.com',        stack: 'Site vitrine one-page · Réflexologie' },
 ];
