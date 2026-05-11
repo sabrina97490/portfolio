@@ -40,8 +40,28 @@ window.VIDEOS_PRO = [
 ];
 
 window.VIDEOS_PERSO = [
-  // À remplir — pour l'instant masqué tant que vide. Décommente quand tu auras tes vidéos perso.
-  // { id: 'x1', title: "Voyage — Île de la Réunion", cat: 'CARNET', videoUrl: 'https://youtu.be/xxxx', description: "" },
+  { id: 'fausse-pub-kleenex-gobelins',
+    title: "Kleenex — Fausse publicité tournée au smartphone",
+    client: 'Projet Gobelins',
+    cat: 'PROJET PÉDAGOGIQUE',
+    videoUrl: 'https://youtu.be/XHZB2o3NEqg',
+    description: "Fausse publicité Kleenex tournée au smartphone — projet pédagogique réalisé dans le cadre de la formation Gobelins." },
+  { id: 'pointe-grouin-2021',
+    title: "Pointe du Grouin — Essai gimbal & DaVinci",
+    cat: 'CAPTATION PAYSAGE',
+    videoUrl: 'https://youtu.be/Ccrs1CNZLSE',
+    description: "Captation contemplative de la Pointe du Grouin (Côtes-d'Armor) montée sur musique électro planante. Premier projet réalisé sous DaVinci Resolve, dans une démarche d'essai personnel en immersion paysage.",
+    context: "Tournage personnel pendant un séjour en Bretagne, conçu comme un terrain d'expérimentation : prise en main approfondie du gimbal en conditions réelles (vent, lumière changeante), passage à DaVinci Resolve pour l'étalonnage et le montage.",
+    approach: "Travail sur la synchronisation rythmique image/musique : choix d'une bande son électro planante mais structurée, montage calé sur les temps et les ruptures musicales, effets de transition au service du rythme. Captation à hauteur d'homme, plans amples, lumière naturelle de bord de mer.",
+    production: "Tournage gimbal · DaVinci Resolve · Étalonnage · Montage rythmique" },
+  { id: 'podcast-ou-va-le-monde',
+    title: "« Où va le monde » — Podcast",
+    cat: 'PODCAST',
+    videoUrl: 'https://youtu.be/lY_O_KWX1GQ',
+    description: "Podcast d'analyse réalisé pendant la période de confinement, conçu comme un espace de prise de recul sur l'actualité.",
+    context: "Création personnelle initiée pendant le confinement, en pleine période de saturation médiatique. L'idée : proposer un format audio posé, pour reprendre du recul sur les informations qui tournaient en boucle. Sources éditoriales : Le Monde, Le Point, Zinfos974.",
+    approach: "Travail sur la voix off et le mixage audio : prise de son maîtrisée, jingle d'ouverture, fond musical discret, rythme posé pour laisser de la place à la réflexion. Une démarche d'autrice plutôt qu'un format calibré pour l'algorithme.",
+    production: "Adobe Audition · Voix off · Habillage sonore (musiques libres de droits)" },
 ];
 
 window.AFFICHES = [
