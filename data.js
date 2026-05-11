@@ -1,52 +1,72 @@
-/* Sabrina Mouédine — données du portfolio */
+/* Sabrina Mouédine — données du portfolio
+   --------------------------------------------------
+   Format vidéo : URL complète YouTube OU Vimeo dans `videoUrl`.
+   Format affiche/tract : `src` peut être .png/.jpg OU .pdf (le PDF s'ouvre dans un nouvel onglet).
+*/
 
 window.VIDEOS_PRO = [
-  { id: 'p1',  title: "Film institutionnel CDT",          client: 'CDT Services',    cat: 'INSTITUTIONNEL', youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'p2',  title: "Reportage événement",              client: 'CDT Services',    cat: 'REPORTAGE',      youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'p3',  title: "Capsule réseaux sociaux",          client: 'Client privé',    cat: 'SOCIAL',         youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'p4',  title: "Présentation produit",             client: 'CDT Services',    cat: 'PRODUIT',        youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'p5',  title: "Interview dirigeant",              client: 'CDT Services',    cat: 'INTERVIEW',      youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'p6',  title: "Motion design — chiffres clés",    client: 'CDT Services',    cat: 'MOTION',         youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'p7',  title: "Après-événement",                  client: 'Association',     cat: 'AFTERMOVIE',     youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'p8',  title: "Tutoriel vidéo",                   client: 'CDT Services',    cat: 'TUTO',           youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'p9',  title: "Témoignage clients",               client: 'CDT Services',    cat: 'TÉMOIGNAGE',     youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'p10', title: "Teaser campagne",                  client: 'CDT Services',    cat: 'TEASER',         youtubeId: 'dQw4w9WgXcQ' },
+  // ====== CAMPAGNE TPE 2024 (3 shorts) ======
+  {
+    id: 'campagne-tpe-2024',
+    type: 'projet',
+    title: "Campagne Élections TPE 2024",
+    client: 'CFDT Services',
+    cat: 'CAMPAGNE',
+    thumbnail: 'https://i.ytimg.com/vi/lCoBKlV810s/hqdefault.jpg',
+    description: "Série de capsules verticales pour mobiliser autour des élections TPE.",
+    context: "Production interne CFDT Services — réalisée en autonomie, du brief à l'export.",
+    approach: "Format short vertical, DA unifiée, motion design, voix-off et sous-titres pour les réseaux sociaux.",
+    production: "Premiere Pro · After Effects · Canva · IA générative",
+    videos: [
+      { title: "TPE — Réseaux sociaux",   videoUrl: 'https://youtube.com/shorts/lCoBKlV810s' },
+      { title: "TPE V2",                  videoUrl: 'https://youtube.com/shorts/n74V521eB-Y' },
+      { title: "TPE — Vos identifiants",  videoUrl: 'https://youtube.com/shorts/8J9BXel3tMU' },
+    ]
+  },
+
+  // ====== VIDÉOS SOLO ======
+  { id: 'v-jingle',     title: "Jingle Congrès CFDT 2025",  client: 'CFDT Services',       cat: 'INSTITUTIONNEL',
+    videoUrl: 'https://youtu.be/Bjt6B3v3xHU', description: "Jingle d'ouverture pour le Congrès 2025 de la CFDT." },
+  { id: 'v-technicien', title: "Technicien.io",             client: 'Technicien.io',       cat: 'PROMO',
+    videoUrl: 'https://youtu.be/phTjbxYMjYA', description: "Capsule de présentation de la plateforme." },
+  { id: 'v-juscanne',   title: "Jus de Canne 974",          client: 'Jus de Canne 974',    cat: 'PROMO',
+    videoUrl: 'https://youtu.be/StO-lS06ye0', description: "Vidéo promo aux couleurs de La Réunion." },
+  { id: 'v-gmstore',    title: "GM Store",                  client: 'GM Store',            cat: 'PRODUIT',
+    videoUrl: 'https://youtu.be/GmqFFPrsano', description: "Présentation produit pour GM Store." },
+  { id: 'v-feminin',    title: "Le Féminin Sacré",          client: 'Le Féminin Sacré',    cat: 'BRAND',
+    videoUrl: 'https://youtu.be/iAf3hw4wuDM', description: "Vidéo de marque, univers doux et incarné." },
+  { id: 'v-niagara',    title: "Résidences Niagara",        client: 'Résidences Niagara',  cat: 'TOURISME',
+    videoUrl: 'https://youtu.be/S5beUM5pGfc', description: "Capsule promotionnelle pour un hébergement insulaire à La Réunion." },
 ];
 
 window.VIDEOS_PERSO = [
-  { id: 'x1', title: "Essai motion 2D",            cat: 'TEST',    youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'x2', title: "Voyage — Île de la Réunion", cat: 'CARNET',  youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'x3', title: "Cover ukulélé",              cat: 'MUSIQUE', youtubeId: 'dQw4w9WgXcQ' },
-  { id: 'x4', title: "Stop motion — atelier",      cat: 'ANIM',    youtubeId: 'dQw4w9WgXcQ' },
+  // À remplir — pour l'instant masqué tant que vide. Décommente quand tu auras tes vidéos perso.
+  // { id: 'x1', title: "Voyage — Île de la Réunion", cat: 'CARNET', videoUrl: 'https://youtu.be/xxxx', description: "" },
 ];
 
 window.AFFICHES = [
-  { src: 'assets/portfolio/pub-illetrisme.png', title: "Lutte contre l'illettrisme", kind: 'AFFICHE' },
-  { src: 'assets/portfolio/pub-assefor.png',    title: 'Assefor — campagne',         kind: 'AFFICHE' },
-  { src: 'assets/portfolio/img1.jpg',           title: 'Affiche événement',          kind: 'AFFICHE' },
-  { src: 'assets/portfolio/img2.jpg',           title: 'Tract distribution',         kind: 'TRACT' },
-  { src: 'assets/portfolio/img3.jpg',           title: 'Communication interne',      kind: 'AFFICHE' },
-  { src: 'assets/portfolio/img4.jpg',           title: 'Print A4',                   kind: 'PRINT' },
-  { src: 'assets/portfolio/img5.jpg',           title: 'Visuel campagne',            kind: 'AFFICHE' },
-  { src: 'assets/portfolio/img6.jpg',           title: 'Flyer recto/verso',          kind: 'TRACT' },
-  { src: 'assets/portfolio/img7.jpg',           title: 'Affichage urbain',           kind: 'AFFICHE' },
-  { src: 'assets/portfolio/img8.jpg',           title: 'Programme',                  kind: 'PRINT' },
-  { src: 'assets/portfolio/img9.jpg',           title: 'Édition',                    kind: 'PRINT' },
-  { src: 'assets/portfolio/img10.jpg',          title: 'Affiche promo',              kind: 'AFFICHE' },
+  // Tracts (PDF)
+  { src: 'assets/portfolio/tract-nao-chaussexpo.pdf',         title: "Tract NAO — Chauss'Expo",          kind: 'TRACT · PDF' },
+  { src: 'assets/portfolio/tract-coiffure-c2p-2019.pdf',      title: "Tract Coiffure C2P 2019",          kind: 'TRACT · PDF' },
+  { src: 'assets/portfolio/tract-nao-cfdt-api.pdf',           title: "Tract NAO CFDT API — Nov. 2025",   kind: 'TRACT · PDF' },
+  { src: 'assets/portfolio/tract-travail-cuisine-chaleur.pdf',title: "Travail en cuisine, forte chaleur",kind: 'TRACT · PDF' },
+  { src: 'assets/portfolio/tract-v5.pdf',                     title: "Tract V5",                         kind: 'TRACT · PDF' },
+  { src: 'assets/portfolio/livret-action.pdf',                title: "Livret d'action",                  kind: 'LIVRET · PDF' },
+  { src: 'assets/portfolio/livret-action-v2.pdf',             title: "Livret d'action — Version 2",      kind: 'LIVRET · PDF' },
+
+  // Affiches & illustrations (image)
+  { src: 'assets/portfolio/affiche-chaleur-amazon.jpg',       title: "Travailler dans la chaleur — Amazon", kind: 'AFFICHE' },
+  { src: 'assets/portfolio/livre-wes-01.jpg',                 title: "Windows 10, vous aussi soyez un pro !", kind: 'ILLUSTRATION · LIVRE' },
 ];
 
 window.LOGOS = [
-  { src: 'assets/portfolio/logo-assefor.png',           title: 'Assefor',           kind: 'LOGOTYPE' },
-  { src: 'assets/portfolio/logo-assefor-pizzaiolo.png', title: 'Assefor Pizzaiolo', kind: 'LOGOTYPE' },
-  { src: 'assets/portfolio/logo-sefordom.png',          title: 'Sefordom',          kind: 'LOGOTYPE' },
-  { src: 'assets/portfolio/logo-zotavenir.png',         title: 'Zotavenir',         kind: 'LOGOTYPE' },
+  { src: 'assets/portfolio/logo-marie-bienetre.jpg', title: 'Marie — Bien-être & Équilibre', kind: 'LOGOTYPE' },
 ];
 
 window.SITES = [
-  { src: 'assets/portfolio/web-site-mika.png',      title: 'Mika',              url: 'mika.fr',      stack: 'HTML · CSS · JS' },
-  { src: 'assets/portfolio/web-site-pizzaiolo.png', title: 'Pizzaiolo',         url: 'pizzaiolo.fr', stack: 'HTML · CSS · PHP' },
-  { src: 'assets/portfolio/web-site-assefor-p.png', title: 'Assefor',           url: 'assefor.com',  stack: 'HTML · Bootstrap' },
-  { src: 'assets/portfolio/web-site-accr.png',      title: 'ACCR',              url: 'accr.fr',      stack: 'WordPress' },
-  { src: 'assets/portfolio/web-site-crm.png',       title: 'Application CRM',   url: 'app interne',  stack: 'PHP · MySQL · jQuery' },
-  { src: 'assets/portfolio/Proj-gest-appel.png',    title: "Gestion d'appels",  url: 'app interne',  stack: 'PHP · MySQL' },
+  { src: 'assets/portfolio/site-assmat.png',              title: "Assistant.e.s maternel.le.s — Droits au cœur", url: 'assistantes-maternelles-agreees.fr', stack: 'Joomla · CFDT Services' },
+  { src: 'assets/portfolio/site-cfdt-casino.png',         title: "CFDT Groupe Casino",                            url: 'cfdt-casino.fr',                     stack: 'Joomla · CFDT Services' },
+  { src: 'assets/portfolio/site-notilus-sommaire.png',    title: "Notilus — Vidéos de formation",                 url: 'docs.cfdt-services.fr',              stack: 'Documentation interactive' },
+  { src: 'assets/portfolio/site-notilus-mode-emploi.png', title: "Notilus — Mode d'emploi",                       url: 'docs.cfdt-services.fr',              stack: 'Documentation interactive' },
+  { src: 'assets/portfolio/site-reflexologue.jpg',        title: "Marie — Bien-être & Équilibre",                 url: 'marie-bienetre-equilibre.fr',        stack: 'Site vitrine one-page · Réflexologie' },
 ];
