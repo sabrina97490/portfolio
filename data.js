@@ -67,6 +67,9 @@ window.VIDEOS_PERSO = [
 ];
 
 window.AFFICHES = [
+  // Illustration livre (placée en premier pour atterrir en colonne 1)
+  { src: 'assets/portfolio/livre-wes-01.jpg',                 title: "Windows 10, vous aussi soyez un pro !", kind: 'ILLUSTRATION · LIVRE' },
+
   // Tracts (PDF)
   { src: 'assets/portfolio/tract-nao-chaussexpo.pdf',         title: "Tract NAO — Chauss'Expo",          kind: 'TRACT · PDF' },
   { src: 'assets/portfolio/tract-coiffure-c2p-2019.pdf',      title: "Tract Coiffure C2P 2019",          kind: 'TRACT · PDF' },
@@ -76,9 +79,8 @@ window.AFFICHES = [
   { src: 'assets/portfolio/livret-action.pdf',                title: "Livret d'action",                  kind: 'LIVRET · PDF' },
   { src: 'assets/portfolio/livret-action-v2.pdf',             title: "Livret d'action — Version 2",      kind: 'LIVRET · PDF' },
 
-  // Affiches & illustrations (image)
+  // Affiches (image)
   { src: 'assets/portfolio/affiche-chaleur-amazon.jpg',       title: "Travailler dans la chaleur — Amazon", kind: 'AFFICHE' },
-  { src: 'assets/portfolio/livre-wes-01.jpg',                 title: "Windows 10, vous aussi soyez un pro !", kind: 'ILLUSTRATION · LIVRE' },
 ];
 
 window.LOGOS = [
