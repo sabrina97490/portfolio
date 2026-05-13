@@ -242,12 +242,12 @@ ul,ol{list-style:none}
 .projet-side{max-height:50vh}
 @media(max-width:780px){.projet-side{max-height:none}.projet-side{padding:20px}}
 
-/* MASONRY (affiches) */
-.masonry{columns:4;column-gap:18px}
-@media (max-width:1100px){.masonry{columns:3}}
-@media (max-width:720px){.masonry{columns:2}}
-@media (max-width:480px){.masonry{columns:1}}
-.masonry-item{break-inside:avoid;margin-bottom:18px;border-radius:10px;overflow:hidden;cursor:pointer;
+/* GRID (affiches) — flux gauche→droite pour que les items orphelins se placent à gauche */
+.masonry{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;align-items:start}
+@media (max-width:1100px){.masonry{grid-template-columns:repeat(3,1fr)}}
+@media (max-width:720px){.masonry{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:480px){.masonry{grid-template-columns:1fr}}
+.masonry-item{margin-bottom:0;border-radius:10px;overflow:hidden;cursor:pointer;
   position:relative;border:2px solid var(--ink);transition:transform .25s,box-shadow .25s}
 .masonry-item:hover{transform:translate(-4px,-4px);box-shadow:8px 8px 0 var(--ink)}
 .masonry-item img{width:100%;height:auto}

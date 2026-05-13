@@ -67,7 +67,7 @@ window.VIDEOS_PERSO = [
 ];
 
 window.AFFICHES = [
-  // Tracts (PDF)
+  // Tracts (PDF) — récents en premier
   { src: 'assets/portfolio/tract-nao-chaussexpo.pdf',         title: "Tract NAO — Chauss'Expo",          kind: 'TRACT · PDF' },
   { src: 'assets/portfolio/tract-coiffure-c2p-2019.pdf',      title: "Tract Coiffure C2P 2019",          kind: 'TRACT · PDF' },
   { src: 'assets/portfolio/tract-nao-cfdt-api.pdf',           title: "Tract NAO CFDT API — Nov. 2025",   kind: 'TRACT · PDF' },
@@ -76,10 +76,8 @@ window.AFFICHES = [
   { src: 'assets/portfolio/livret-action.pdf',                title: "Livret d'action",                  kind: 'LIVRET · PDF' },
   { src: 'assets/portfolio/livret-action-v2.pdf',             title: "Livret d'action — Version 2",      kind: 'LIVRET · PDF' },
 
-  // Affiches (image)
+  // Affiches & illustrations (image) — du plus récent au plus ancien
   { src: 'assets/portfolio/affiche-chaleur-amazon.jpg',       title: "Travailler dans la chaleur — Amazon", kind: 'AFFICHE' },
-  
-    // Illustration livre (placée en premier pour atterrir en colonne 1)
   { src: 'assets/portfolio/livre-wes-01.jpg',                 title: "Windows 10, vous aussi soyez un pro !", kind: 'ILLUSTRATION · LIVRE' },
 ];
 
@@ -88,9 +86,9 @@ window.LOGOS = [
 ];
 
 window.SITES = [
-  { src: 'assets/portfolio/site-reflexologue.jpg',        title: "Marie — Bien-être & Équilibre",                 url: 'reflexologie91.com',        stack: 'Site vitrine one-page · Réflexologie' },
   { src: 'assets/portfolio/site-assmat.png',              title: "Assistant.e.s maternel.le.s — Droits au cœur", url: 'assistantes-maternelles-agreees.fr', stack: 'Joomla · CFDT Services' },
   { src: 'assets/portfolio/site-cfdt-casino.png',         title: "CFDT Groupe Casino",                            url: 'cfdt-casino.fr',                     stack: 'Joomla · CFDT Services' },
   { src: 'assets/portfolio/site-notilus-sommaire.png',    title: "Notilus — Vidéos de formation",                 url: 'docs.cfdt-services.fr',              stack: 'Documentation interactive' },
   { src: 'assets/portfolio/site-notilus-mode-emploi.png', title: "Notilus — Mode d'emploi",                       url: 'docs.cfdt-services.fr',              stack: 'Documentation interactive' },
+  { src: 'assets/portfolio/site-reflexologue.jpg',        title: "Marie — Bien-être & Équilibre",                 url: 'reflexologie91.com',        stack: 'Site vitrine one-page · Réflexologie' },
 ];
