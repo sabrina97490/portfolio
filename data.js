@@ -68,8 +68,6 @@ window.VIDEOS_PERSO = [
 
 window.AFFICHES = [
   // Tracts (PDF) — récents en premier
-  { src: 'assets/portfolio/tract-nao-chaussexpo.pdf',         title: "Tract NAO — Chauss'Expo",          kind: 'TRACT · PDF' },
-  { src: 'assets/portfolio/tract-coiffure-c2p-2019.pdf',      title: "Tract Coiffure C2P 2019",          kind: 'TRACT · PDF' },
   { src: 'assets/portfolio/tract-nao-cfdt-api.pdf',           title: "Tract NAO CFDT API — Nov. 2025",   kind: 'TRACT · PDF' },
   { src: 'assets/portfolio/tract-travail-cuisine-chaleur.pdf',title: "Travail en cuisine, forte chaleur",kind: 'TRACT · PDF' },
   { src: 'assets/portfolio/tract-v5.pdf',                     title: "Tract V5",                         kind: 'TRACT · PDF' },
