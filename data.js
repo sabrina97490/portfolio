@@ -71,7 +71,7 @@ window.AFFICHES = [
   { src: 'assets/portfolio/tract-nao-cfdt-api.pdf',           title: "Tract NAO CFDT API — Nov. 2025",   kind: 'TRACT · PDF' },
   { src: 'assets/portfolio/tract-travail-cuisine-chaleur.pdf',title: "Travail en cuisine, forte chaleur",kind: 'TRACT · PDF' },
   { src: 'assets/portfolio/tract-v5.pdf',                     title: "Tract V5",                         kind: 'TRACT · PDF' },
-  { src: 'assets/portfolio/livret-action.pdf',                title: "Livret d'action",                  kind: 'LIVRET · PDF' },
+  { src: 'assets/portfolio/Tract Travail temporaire 052025.pdf', title: "Tract Travail temporaire ",    kind: 'LIVRET · PDF' },
   { src: 'assets/portfolio/livret-action-v2.pdf',             title: "Livret d'action — Version 2",      kind: 'LIVRET · PDF' },
 
   // Affiches & illustrations (image) — du plus récent au plus ancien
